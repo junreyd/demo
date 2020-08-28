@@ -1,14 +1,36 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "users": [
+      { "id": 1, "fullname": "Junrey Ducay", "email": "ducjunrey@gmail.com", "role": "admin", "password": "secret", "createdAt": "2020-08-23", "updatedAt": "2020-08-24" },
+      { "id": 2, "fullname": "Jhon Doe", "email": "asdf@gmail.com", "role": "subadmin", "password": "secret", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" }
+    ]
+  },
+  {
+    "barangays": [
+      { "id": 1, "barangayname": "Poblacion", "createdAt": "2020-08-23", "updatedAt": "2020-08-24" },
+      { "id": 2, "barangayname": "Suba", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" },
+      { "id": 3, "barangayname": "Basak", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" }
+    ]
+  },
+  {
+    "poblacion": [
+      { "id": 1, "barangayID": "1", "fname": "Alex", "mname": "Soo", "lname": "Degozman", "alias": "Al", "gender": "M", "age": "34", "bdate": "02/26/1991", "bplace": "Samboan",  "cstatus": "Married", "sitio": "Kabahar", "vstatus": "Yes", "createdAt": "2020-08-23", "updatedAt": "2020-08-24" },
+      { "id": 2, "barangayID": "1", "fname": "Antonio", "mname": "Goo", "lname": "Bautista", "alias": "Anton", "gender": "M", "age": "62", "bdate": "12/04/1982", "bplace": "Cebu City",  "cstatus": "Single", "sitio": "Saypa", "vstatus": "No", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" },
+      { "id": 3, "barangayID": "1", "fname": "Jean", "mname": "Boo", "lname": "Sagabal", "alias": "Jea", "gender": "F", "age": "23", "bdate": "04/29/1989", "bplace": "Dumaguete",  "cstatus": "Married", "sitio": "Banawa", "vstatus": "Yes", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" }
+    ]
+  },
+  {
+    "suba": [
+      { "id": 1, "barangayID": "2", "fname": "Alex", "mname": "Soo", "lname": "Degozman", "alias": "Al", "gender": "M", "age": "34", "bdate": "02/26/1991", "bplace": "Samboan",  "cstatus": "Married", "sitio": "Kabahar", "vstatus": "Yes", "createdAt": "2020-08-23", "updatedAt": "2020-08-24" },
+      { "id": 2, "barangayID": "2", "fname": "Antonio", "mname": "Goo", "lname": "Bautista", "alias": "Anton", "gender": "M", "age": "62", "bdate": "12/04/1982", "bplace": "Cebu City",  "cstatus": "Single", "sitio": "Saypa", "vstatus": "No", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" },
+      { "id": 3, "barangayID": "2", "fname": "Jean", "mname": "Boo", "lname": "Sagabal", "alias": "Jea", "gender": "F", "age": "23", "bdate": "04/29/1989", "bplace": "Dumaguete",  "cstatus": "Married", "sitio": "Banawa", "vstatus": "Yes", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" }
+    ]
+  },
+  {
+    "basak": [
+      { "id": 1, "barangayID": "3", "fname": "Alex", "mname": "Soo", "lname": "Degozman", "alias": "Al", "gender": "M", "age": "34", "bdate": "02/26/1991", "bplace": "Samboan",  "cstatus": "Married", "sitio": "Kabahar", "vstatus": "Yes", "createdAt": "2020-08-23", "updatedAt": "2020-08-24" },
+      { "id": 2, "barangayID": "3", "fname": "Antonio", "mname": "Goo", "lname": "Bautista", "alias": "Anton", "gender": "M", "age": "62", "bdate": "12/04/1982", "bplace": "Cebu City",  "cstatus": "Single", "sitio": "Saypa", "vstatus": "No", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" },
+      { "id": 3, "barangayID": "3", "fname": "Jean", "mname": "Boo", "lname": "Sagabal", "alias": "Jea", "gender": "F", "age": "23", "bdate": "04/29/1989", "bplace": "Dumaguete",  "cstatus": "Married", "sitio": "Banawa", "vstatus": "Yes", "createdAt": "2020-08-24", "updatedAt": "2020-08-25" }
+    ]
   }
-}
+]
